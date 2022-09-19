@@ -1,0 +1,406 @@
+        .navbar {
+            font-family:Arial, Helvetica, sans-serif;
+            background-image: url(navbar.png);
+            color: white;
+            margin: -8px;
+            box-shadow: 2px 2px 15px 12px rgba(0, 0, 0, 0.527);
+            user-select: none;
+            margin-bottom: 5px;
+        }
+        
+        .oynaButonu {
+            text-decoration: none;
+            font-size: xx-large;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            border-radius: 20px;
+            background-color: rgb(185, 0, 0);
+            color: white;
+            padding: 10px;
+            cursor: pointer;
+            margin-top: 15%;
+            margin-right: -250px;
+        }
+
+        .iflas-son {
+            text-decoration: none;
+            font-size: xx-large;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            border-radius: 0px;
+            background-color: rgb(185, 0, 0);
+            color: white;
+            padding: 10px;
+            cursor: auto;
+            margin-top: 15%;
+            margin-left: -8px;
+            width: 100%;
+            box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.25);
+            text-shadow: 0px 0px 20px rgb(129, 0, 0);
+            user-select: none;
+            display:none;
+        }
+
+        .oynaButonu:hover {
+            text-decoration: none;
+            font-size: xx-large;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            border-radius: 20px;
+            background-color: rgb(255, 0, 0);
+            color: white;
+            padding: 10px;
+            cursor: pointer;
+        }
+
+        .restartButonu {
+            text-decoration: none;
+            font-size: small;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            border-radius: 20px 20px 0px 0px;
+            background-color: rgb(255, 161, 38);
+            color: rgb(0, 23, 99);
+            padding: 10px;
+            cursor: pointer;
+            float: right;
+            display: none;
+            border: none;
+            box-shadow: 2px 2px 50px 2px rgb(0, 0, 0);
+            user-select: none;
+            margin-top: 50px;
+            width: 105px;
+        }
+
+        .restartButonu:hover {
+            text-decoration: none;
+            font-size: small;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            border-radius: 20px 20px 0px 0px;
+            background-color:rgb(179, 0, 0);
+            color: rgb(255, 255, 255);
+            padding: 10px;
+            cursor: pointer;
+            float: right;
+        }
+
+        .restartButonu:active {
+            text-decoration: none;
+            font-size: small;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            border-radius: 20px 20px 0px 0px;
+            background-color:rgba(255, 255, 255, 0.705);
+            color: rgb(0, 0, 0);
+            padding: 10px;
+            cursor: pointer;
+            float: right;
+        }
+
+        .kartIlk1 {
+            background-color: whitesmoke;
+            width: 200px;
+            height: 300px;
+            border-radius: 10px;
+            margin: 5px;
+            margin-top: 150px;
+            float: left;
+            box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.288);
+            border: solid rgb(0, 0, 0) 1px;
+            font-size: 80pt;
+            text-align: center;
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            display: none;
+            cursor:default;
+        }
+
+        .kartDeger {
+            margin-top: 80px;
+            user-select: none;
+        }
+
+        .kartIlk2 {
+            background-color: whitesmoke;
+            width: 200px;
+            height: 300px;
+            border-radius: 10px;
+            margin: 5px;
+            margin-top: 150px;
+            float: left;
+            box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.288);
+            border: solid rgb(0, 0, 0) 1px;
+            font-size: 80pt;
+            text-align: center;
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            display: none;
+            cursor:default;
+        }
+
+        .kartextra1 {
+            background-color: whitesmoke;
+            width: 200px;
+            height: 300px;
+            border-radius: 10px;
+            margin: 5px;
+            margin-top: 150px;
+            float: left;
+            box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.288);
+            border: solid rgb(0, 0, 0) 1px;
+            font-size: 80pt;
+            text-align: center;
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            display: none;
+        }
+
+        .kartextra2 {
+            background-color: whitesmoke;
+            width: 200px;
+            height: 300px;
+            border-radius: 10px;
+            margin: 5px;
+            margin-top: 150px;
+            float: left;
+            box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.288);
+            border: solid rgb(0, 0, 0) 1px;
+            font-size: 80pt;
+            text-align: center;
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            display: none;
+        }
+
+        .kartextra3 {
+            background-color: whitesmoke;
+            width: 200px;
+            height: 300px;
+            border-radius: 10px;
+            margin: 5px;
+            margin-top: 150px;
+            float: left;
+            box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.288);
+            border: solid rgb(0, 0, 0) 1px;
+            font-size: 80pt;
+            text-align: center;
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            display: none;
+        }
+        .kartextra4 {
+            background-color: whitesmoke;
+            width: 200px;
+            height: 300px;
+            border-radius: 10px;
+            margin: 5px;
+            margin-top: 150px;
+            float: left;
+            box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.288);
+            border: solid rgb(0, 0, 0) 1px;
+            font-size: 80pt;
+            text-align: center;
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            display: none;
+        }
+
+        .kartextra5 {
+            background-color: whitesmoke;
+            width: 200px;
+            height: 300px;
+            border-radius: 10px;
+            margin: 5px;
+            margin-top: 150px;
+            float: left;
+            box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.288);
+            border: solid rgb(0, 0, 0) 1px;
+            font-size: 80pt;
+            text-align: center;
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            display: none;
+        }
+
+        .kartCek {
+            width: 200px;
+            height: 300px;
+            border-radius: 10px;
+            margin: 5px;
+            margin-top: 50px;
+            float: right;
+            box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.288);
+            cursor: cell;
+            display: none;
+            border: solid 3px rgba(255, 220, 23, 0);
+            user-select: all;
+            margin-right: -270px;
+        }
+        .kartCek:hover {
+            width: 200px;
+            height: 300px;
+            border-radius: 10px;
+            margin: 5px;
+            margin-top: 50px;
+            float: right;
+            box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.288);
+            border: solid 3px rgb(255, 220, 23);
+            margin-right: -270px;
+        }
+        .kartCek:active {
+            width: 200px;
+            height: 300px;
+            border-radius: 10px;
+            margin: 5px;
+            margin-top: 50px;
+            float: right;
+            box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.288);
+            border: solid 3px rgb(255, 23, 23);
+            margin-right: -270px;
+        }
+
+        .elAcButonu {
+            margin-top: 500px;
+            text-decoration: none;
+            font-size: large;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            border-radius: 20px;
+            background-color: rgb(255, 0, 0);
+            color: white;
+            padding: 10px;
+            cursor: pointer;
+            float: left;
+            display: inline;
+            border: none;
+            box-shadow: 2px 2px 50px 2px rgb(46, 99, 46);
+            user-select: none;
+            position: absolute;
+            left: 1500px;
+        }
+
+        .elAcButonu:hover {
+            margin-top: 500px;
+            text-decoration: none;
+            font-size: large;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            border-radius: 20px;
+            background-color: rgb(187, 0, 0);
+            color: white;
+            padding: 10px;
+            cursor: pointer;
+            float: right;
+            display: inline;
+            border: none;
+            box-shadow: 2px 2px 50px 2px rgb(46, 99, 46);
+            user-select: none;
+        }
+
+        .elAcButonu:active {
+            margin-top: 500px;
+            margin-right: -200px;
+            text-decoration: none;
+            font-size: large;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            border-radius: 20px;
+            background-color: rgba(255, 255, 255, 0.801);
+            color: rgb(255, 0, 0);
+            padding: 10px;
+            cursor: pointer;
+            float: right;
+            display: inline;
+            border: none;
+            box-shadow: 2px 2px 50px 2px rgb(46, 99, 46);
+            user-select: none;
+        }
+
+        .fazlaKart {
+            height: 20px;
+            background-color: rgb(196, 0, 0);
+            color: white;
+            display: none;
+            border-radius: 0px 0px 10px 10px;
+            padding-left: 600px;
+            padding-right: 600px;
+            padding-bottom: 5px;
+            padding-top: 5px;
+        }
+
+
+
+        /* Result Bar */
+
+        .resultBar{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            color: goldenrod;
+            font-size: x-large;
+            cursor:default;
+            user-select: none;
+            padding: 10px;
+        }
+
+        .result-style{
+            float: right;
+            margin-right: 50px;
+        }
+
+
+
+
+        @media screen and (max-width: 500px) {
+            
+            .resultBar{
+                font-size: small;
+            }
+
+            .result-style{
+                margin-right: 10px;
+            }
+
+            .oynaButonu {
+                text-decoration: none;
+                font-size: xx-large;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                border-radius: 20px;
+                background-color: rgb(185, 0, 0);
+                color: white;
+                padding: 10px;
+                cursor: pointer;
+                margin-top: 10rem;
+                
+                position: absolute;
+
+            }
+
+            .kartDeger{
+                margin-top: 28px;
+            }
+
+            .kartIlk1 {
+                background-color: whitesmoke;
+                width: 50px;
+                height: 75px;
+                border-radius: 10px;
+                margin: 5px;
+                margin-top: 10px;
+                font-size: 10pt;
+                float: left;
+                padding-top: 0px;
+            }
+
+            .kartIlk2 {
+                background-color: whitesmoke;
+                width: 50px;
+                height: 75px;
+                border-radius: 10px;
+                margin: 5px;
+                margin-top: 10px;
+                font-size: 10pt;
+                float: left;
+                padding-top: 0px;
+            }
+            /* .kartIlk1 {
+                background-color: whitesmoke;
+                width: 200px;
+                height: 300px;
+                border-radius: 10px;
+                margin: 5px;
+                margin-top: 150px;
+                float: left;
+                box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.288);
+                border: solid rgb(0, 0, 0) 1px;
+                font-size: 80pt;
+                text-align: center;
+                font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                display: none;
+                cursor:default;
+            } */
+
+        }

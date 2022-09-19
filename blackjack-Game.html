@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlackJack</title>
+    <link rel="icon" href="webIcon.png">
+    <link rel="stylesheet" href="blackjack.css">
+    <script src="blackjack.js"></script>
+</head>
+
+<body style="background-color: rgb(54, 117, 54); overflow-x: hidden;">
+
+    <center
+        class="navbar">
+        <br><img src="logo.png" id="logo" width="300" alt="">
+        <button id="restartBtn" onclick="restartBtn()" class="restartButonu">↻ Yeniden Başla</button> <br>
+        <br><br>
+    </center>
+
+    <center>
+        <div id="fazlakart" class="fazlaKart"> Daha fazla kart çekemezsiniz! </div>
+    </center>
+
+    <br>
+    <div class="resultBar">
+        <img src="para.png" width="20px" alt=""> <a class="result-style" id="totalpara">0</a>$
+        <div class="result-style">Kurpiyer Skor: <p id="kurpiyerSkor"> </p></div>
+        <div class="result-style">Skor: <p id="skor"> </p></div> <br>
+    </div>
+    <center>
+
+        <div>
+            <p class="iflas-son" id="iflas-son">İFLAS</p>
+        </div>
+
+        <button onclick="oynaButonu()" id="oynaBtn" class="oynaButonu">OYNA</button>
+    </center>
+    <center>
+        <div class="kartIlk1" id="kart1">
+            <p class="kartDeger" id="kart1deger">
+
+            </p>
+        </div>
+        <div class="kartIlk2" id="kart2">
+            <p class="kartDeger" id="kart2deger">
+
+            </p>
+        </div>
+        <div class="kartextra3" id="kart3">
+            <p class="kartDeger" id="kart3deger">
+
+            </p>
+        </div>
+        <div class="kartextra4" id="kart4">
+            <p class="kartDeger" id="kart4deger">
+
+            </p>
+        </div>
+        <div class="kartextra5" id="kart5">
+            <p class="kartDeger" id="kart5deger">
+
+            </p>
+        </div>
+        <div class="kartCek" style="background-image: url(iskambilArka.gif);  user-select: none;" id="kartcek" onclick="newCart()">
+
+        </div>
+
+    </center>
+
+    <button id="elAcBtn" style="display: none; margin-right: -200px;" onclick="elAcBtn()" class="elAcButonu">Kartları Aç</button> <br>
+    <button id="elAcDevamBtn" onclick="elAcDevamBtn()" style="display: none; margin-right: -200px;" class="elAcButonu">Devam</button> <br>
+
+    
+</body>
+
+
+</html>
